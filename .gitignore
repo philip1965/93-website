@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Full-resolution source photos — NOT served by the site (it uses images/optimized/).
+# Kept on local disk only, to keep the published repo lean.
+/images/*.jpg
+/images/*.png
+# ...but DO track the optimised images the site actually serves:
+!/images/optimized/
+
+# Brand source assets (originals kept locally; not needed for the published site)
+/brand/
+
+# Internal content/working brief — not served, contains internal build notes.
+# Kept locally only so it isn't published in a (likely public) Pages repo.
+/content/
