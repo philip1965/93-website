@@ -14,3 +14,6 @@
 # Internal content/working brief — not served, contains internal build notes.
 # Kept locally only so it isn't published in a (likely public) Pages repo.
 /content/
+
+# Private marketing materials (flyers/PDFs) — local only, not part of the website.
+/marketing/

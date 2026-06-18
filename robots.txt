@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://93gss-unit2.com/sitemap.xml

@@ -339,6 +339,43 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.12; color: var(--ink)
   .brand-text small { display: none; }
 }
 
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 820px; margin: 0 auto; }
+.faq-item {
+  border: 1px solid var(--stone-light);
+  border-radius: var(--radius);
+  background: var(--paper);
+  margin-bottom: .85rem;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.1rem 1.3rem;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--brown-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--orange);
+  line-height: 1;
+  flex: 0 0 auto;
+}
+.faq-item[open] summary::after { content: "\2013"; }
+.faq-item summary:hover { color: var(--brown); }
+.faq-answer { padding: 0 1.3rem 1.2rem; color: var(--ink-soft); }
+.faq-answer p { margin: 0; }
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
