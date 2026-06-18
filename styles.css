@@ -321,7 +321,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.12; color: var(--ink)
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) { opacity: 0; }
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-  .pricing-strip { position: static; }
+  .pricing-strip { position: static; margin-top: 1.8rem; }
   .hero { padding-bottom: 0; min-height: clamp(480px, 80vh, 640px); }
   .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .pricing-item:nth-child(1), .pricing-item:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,.14); }
